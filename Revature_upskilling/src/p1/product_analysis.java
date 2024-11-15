@@ -1,3 +1,29 @@
+ /* question for product_analysis
+import java.util.; 
+import java.util.stream.; 
+class Product {     
+    private String name;     
+    private String category;     
+    private int quantity;     
+    private double price;     
+    // Constructor, getters, and setters } 
+    public class ProductAnalysis {     
+        public static void main(String[] args) {         
+            List<Product> products = Arrays.asList(             
+                new Product("Laptop", "Electronics", 5, 1000.0),        
+                new Product("Smartphone", "Electronics", 0, 800.0),     
+                new Product("Desk", "Furniture", 10, 200.0),             
+                new Product("Chair", "Furniture", 0, 100.0),             
+                new Product("Tablet", "Electronics", 3, 300.0)         
+                );         
+                // Implement logic here to find the most expensive product in each category with quantity > 0     
+                  
+        } 
+        
+    }   
+                Problem 1: Processing Product Inventory Scenario: You work for an e-commerce company, and you need to analyze product inventory data. The inventory contains products with fields for name, category, quantity, and price. Your task is to find out the most expensive product in each category that has a quantity greater than 0.
+*/
+
 import java.util.*;
 import java.util.stream.*;
 
